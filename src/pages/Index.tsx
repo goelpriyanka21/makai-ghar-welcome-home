@@ -26,6 +26,11 @@ import {
 import heroImage from "@/assets/hero-corn-dishes.jpg";
 import chefPortrait from "@/assets/chef-portrait.jpg";
 import traditionalKitchen from "@/assets/traditional-kitchen.jpg";
+import poonamYadav from "@/assets/poonam-yadav.jpg";
+import preetiSharma from "@/assets/preeti-sharma.jpg";
+import priyankaGoel from "@/assets/priyanka-goel.jpg";
+import ranjanaRanu from "@/assets/ranjana-ranu.jpg";
+import vinitaDhawan from "@/assets/vinita-dhawan.jpg";
 
 const Index = () => {
   const { toast } = useToast();
@@ -317,38 +322,99 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
                     <img 
-                      src={chefPortrait} 
-                      alt="Chef Rajesh Kumar" 
+                      src={poonamYadav} 
+                      alt="Poonam Yadav" 
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <CardTitle className="text-earth-brown">Chef Rajesh Kumar</CardTitle>
-                  <CardDescription>Head Chef & Co-Founder</CardDescription>
+                  <CardTitle className="text-earth-brown">Poonam Yadav</CardTitle>
+                  <CardDescription>Kitchen Manager</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
-                    With 15 years of experience in traditional Indian cuisine, Chef Rajesh brings authentic village flavors to urban dining. His passion for corn-based dishes stems from his childhood in rural Punjab.
+                    Born in the rural villages of Haryana, Poonam mastered the art of corn preparation from her grandmother. Her expertise in traditional fermentation and grain processing techniques brings authenticity to every dish we serve.
                   </p>
                 </CardContent>
               </Card>
-              
+
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted flex items-center justify-center">
-                    <Users className="w-16 h-16 text-muted-foreground" />
+                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                    <img 
+                      src={preetiSharma} 
+                      alt="Preeti Sharma" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
-                  <CardTitle className="text-earth-brown">Priya Sharma</CardTitle>
-                  <CardDescription>Restaurant Manager & Co-Founder</CardDescription>
+                  <CardTitle className="text-earth-brown">Preeti Sharma</CardTitle>
+                  <CardDescription>Head Chef</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
-                    Priya ensures every guest feels like family. Her background in hospitality management and deep understanding of Indian culture creates the warm, welcoming atmosphere Makai Ghar is known for.
+                    Raised in the fertile fields of western Uttar Pradesh, Preeti learned the secrets of seasonal cooking from her family's farming community. Her innovative approach blends traditional corn recipes with modern presentation.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                    <img 
+                      src={priyankaGoel} 
+                      alt="Priyanka Goel" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <CardTitle className="text-earth-brown">Priyanka Goel</CardTitle>
+                  <CardDescription>Operations Manager</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Growing up in a joint family in rural Haryana, Priyanka learned the importance of hospitality and community dining. Her organizational skills and understanding of family values ensure every guest feels welcomed and cared for.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                    <img 
+                      src={ranjanaRanu} 
+                      alt="Ranjana Ranu" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <CardTitle className="text-earth-brown">Ranjana Ranu</CardTitle>
+                  <CardDescription>Culinary Supervisor</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Hailing from the agricultural heartland of Uttar Pradesh, Ranjana brings three decades of experience in traditional home cooking. Her expertise in spice blending and preservation techniques keeps our recipes authentic and flavorful.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                    <img 
+                      src={vinitaDhawan} 
+                      alt="Vinita Dhawan" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <CardTitle className="text-earth-brown">Vinita Dhawan</CardTitle>
+                  <CardDescription>Quality Assurance Lead</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Born into a farming family in Haryana's grain belt, Vinita understands quality from seed to plate. Her keen eye for freshness and commitment to traditional standards ensures every ingredient meets our family's expectations.
                   </p>
                 </CardContent>
               </Card>
