@@ -353,7 +353,7 @@ const Index = () => {
                     />
                   </div>
                   <CardTitle className="text-earth-brown">Preeti Sharma</CardTitle>
-                  <CardDescription>Head Chef</CardDescription>
+                  <CardDescription>Accounts Manager</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
@@ -391,7 +391,7 @@ const Index = () => {
                     />
                   </div>
                   <CardTitle className="text-earth-brown">Ranjana Ranu</CardTitle>
-                  <CardDescription>Culinary Supervisor</CardDescription>
+                  <CardDescription>Head Chef</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
@@ -576,7 +576,7 @@ const Index = () => {
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 96865 67109</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -591,8 +591,7 @@ const Index = () => {
                     <div>
                       <p className="font-medium">Address</p>
                       <p className="text-muted-foreground">
-                        123 Heritage Street, Cultural District<br />
-                        Mumbai, Maharashtra 400001
+                        Sector 2, Phase 1, Janakpuri, Delhi
                       </p>
                     </div>
                   </div>
@@ -601,8 +600,7 @@ const Index = () => {
                     <div>
                       <p className="font-medium">Hours</p>
                       <div className="text-muted-foreground">
-                        <p>Mon - Thu: 11:00 AM - 10:00 PM</p>
-                        <p>Fri - Sun: 11:00 AM - 11:00 PM</p>
+                        <p>All Days: 10:00 AM - 09:00 PM</p>
                       </div>
                     </div>
                   </div>
